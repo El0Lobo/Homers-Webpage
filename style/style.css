@@ -6,7 +6,7 @@
 }
 
 @keyframes move-izq {
-  0% {
+  0% {/* Adjusted to fit the viewport */
   }
   100% {
     transform: translateX(-100em);
@@ -321,9 +321,6 @@ transform: scale(1.1);
   left: -1.8%;
   z-index: 30;
   scale: 0.05;
-  background: none;
-  border: none;
-  color: black;
 }
 .muted:hover {
   transition: 0.2s;
